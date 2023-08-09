@@ -9,14 +9,14 @@
 }
 
 :root {
-    --cor00:#b3c8ff;
-    --cor01:#6A92F7;
-    --cor02:#5374c7;
-    --cor03:#3f5899;
-    --cor04:#2b3d6b;
-    --cor05:#1c2949;
-    --cor06:#0f1729;
-    --cor07:#070a13;
+    --cor00:#fff1a2;
+    --cor01:#FFE44D;
+    --cor02:#FFD700;
+    --cor03:#CCAD00;
+    --cor04:#807226;
+    --cor05:#806C00;
+    --cor06:#463b00;
+    --cor07:#201c00;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: "Bebas Neue", sans-serif;
