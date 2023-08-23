@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+         body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        col.cnome {
+            background-color: green;
+        }
+
+        col.cidade-cprof {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade-cprof" span="2">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Bancario</td>
+        </tr>
+        <tr>
+            <td>Amélia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Engenheiro</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
